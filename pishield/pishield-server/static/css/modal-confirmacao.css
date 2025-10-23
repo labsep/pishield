@@ -1,0 +1,49 @@
+#modal-confirmacao {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+#modal-confirmacao .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1em 2.5em;
+    border-radius: 20px;
+}
+
+#modal-confirmacao h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#modal-confirmacao .botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#modal-confirmacao .fechar, #modal-confirmacao .confirmar {
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#modal-confirmacao .fechar {
+    background-color: #128FC8;
+}
+
+#modal-confirmacao .confirmar {
+    background-color: #802020;
+}

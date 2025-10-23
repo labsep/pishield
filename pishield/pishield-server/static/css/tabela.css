@@ -1,0 +1,48 @@
+main h2 {
+    text-align: center;
+}
+
+main p {
+    display: none;
+    text-align: center;
+}
+
+main table {
+    margin: 0 auto;
+}
+
+main table th, main table td {
+    text-align: left;
+    padding: 0.25em 2em;
+}
+
+main tbody tr {
+    transition: .2s;
+}
+
+main thead tr {
+    background-color: #128FC8;
+    color: white;
+    font-weight: bold;
+}
+
+main tbody tr:nth-child(even) {
+    background-color: #c8c8c8;    
+}
+
+main tbody tr:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+main table button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #802020;
+    color: white;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
